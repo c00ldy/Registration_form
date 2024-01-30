@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 9rem;
+        }
+
+        section>:nth-child(1) {
+            color: purple;
+            font-family: 'Poppins', sans-serif;
+            font-size: 10rem;
+        }
+
+        section>:nth-child(2)>a {
+            background-color: purple;
+            border-radius: 13px;
+            padding: 9px 24px;
+            text-decoration: none;
+            color: white;
+        }
+        section>:nth-child(2)>a:hover {
+            transition-duration: .7s;
+            background-color: transparent;
+            border-radius: 13px;
+            border: 1px solid rgba(0, 0, 0, 0.523);
+            padding: 9px 24px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            box-shadow: 0px 4px 0px purple;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="box">Hello!</div>
+        <div class="box"><a href="form.html">Continue here</a></div>
+    </section>
+</body>
+
+</html>
