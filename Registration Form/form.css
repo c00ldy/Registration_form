@@ -12,7 +12,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://i.pinimg.com/564x/8f/55/65/8f55658b450b8b4e95542876dec297d3.jpg);
+    background-image: url(8f55658b450b8b4e95542876dec297d3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 input {
@@ -23,18 +25,19 @@ input {
 
 .mainsection {
     margin-top: 10%;
-    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    /* border: 2px solid rgb(0, 0, 0; */
     width: 50vw;
     height: 53vh;
     background-color: rgba(255, 255, 255, 0.858);
-    box-shadow: -6px 21px 66px -7px black;
+    box-shadow: -6px 21px 66px -7px #ff5fef75;
 
 }
 
 .mainsection>div {
     font-size: 2rem;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 16px;
 }
 
 .line {
@@ -42,6 +45,14 @@ input {
     height: 1px;
     background-color: black;
     margin: auto;
+}
+
+span {
+    right: -170px;
+    top: -5px;
+    position: relative;
+    font-size: 11px;
+    color: red;
 }
 
 

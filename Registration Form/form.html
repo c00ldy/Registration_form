@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form </title>
     <link rel="stylesheet" href="form.css">
-    <script src="form.js"></script>
+    
 </head>
-
+<noscript>no</noscript>
 <body>
     <section class="mainsection">
         
@@ -18,12 +18,14 @@
             <div class="name">Full Name</div>
             <div><input type="text" name="name" class="nameinput"></div>
         </div>
+        <span class="error"></span>
 
         <section class="first">
             <div>
                 <div class="email">Email</div>
-                <div><input type="text" name="name" class="nameinput"></div>
+                <div><input type="email" name="name" class="nameinput"></div>
             </div>
+            <span class="eerror"></span>
         </section>
 
         <section class="third">
@@ -43,7 +45,7 @@
         </section>
 
         <section class="fifth">
-            <div class="branch">Brench</div>
+            <div class="branch">Branch</div>
             <div>
                 <div class="do"><input type="checkbox" name="male" id="gander">IT</div>
                 <div class="do"><input type="checkbox" name="male" id="gander">CE</div>
@@ -78,5 +80,5 @@
 
     </section>
 </body>
-
+<script src="form.js"></script>
 </html>
