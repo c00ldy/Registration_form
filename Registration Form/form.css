@@ -9,8 +9,10 @@
 }
 
 body {
-    background-color: blueviolet;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/564x/8f/55/65/8f55658b450b8b4e95542876dec297d3.jpg);
 }
 
 input {
@@ -19,22 +21,20 @@ input {
     outline: none;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .mainsection {
+    margin-top: 10%;
     border: 2px solid rgb(0, 0, 0);
     width: 50vw;
-    height: 99vh;
-    background-color: white;
+    height: 53vh;
+    background-color: rgba(255, 255, 255, 0.858);
+    box-shadow: -6px 21px 66px -7px black;
+    
 }
 
 .mainsection>div {
     font-size: 2rem;
     text-align: center;
+    margin-top: 10px;
 }
 
 .line {
@@ -94,6 +94,10 @@ body {
     margin-top: 10px;
 }
 
+.second {
+    display: flex;
+}
+
 .second>:nth-child(1)>.dob {
     font-size: 19px;
     margin: 0 16px 0 61px;
@@ -101,7 +105,17 @@ body {
 
 .second>:nth-child(1)>:nth-child(2)>input {
     padding: 0 0px 0px 0px;
-    width: 488px;
+    width: 119px;
+}
+
+.second>:nth-child(2) {
+    margin-top: 8px;
+    padding-left: 83px;
+    font-size: 19px;
+}
+
+#Sem {
+    padding: 0 59px;
 }
 
 .third {
@@ -139,4 +153,58 @@ body {
 
 .forth>:nth-child(1)>:nth-child(2)>input {
     padding-right: 271px;
+}
+
+.enrolnumber {
+    padding-right: 13px;
+}
+
+.fifth,
+.fifth>:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.branch {
+    font-size: 19px;
+    margin-left: 61px;
+    margin-top: 10px;
+}
+
+.fifth>:nth-child(2) {
+    margin-right: 203px;
+}
+
+.do {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 12px;
+}
+
+.sixth {
+    display: flex;
+    justify-content: center;
+}
+
+.btn>button {
+    font-size: 17px;
+    border-radius: 16px;
+    margin-top: 20px;
+    padding: 3px 27px;
+    background: blueviolet;
+    color: white;
+    border: blueviolet;
+}
+
+.btn>button:hover {
+    cursor: pointer;
+    transition-duration: .7s;
+    background-color: transparent;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.523);
+    padding: 3px 27px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 4px 0px purple;
 }
